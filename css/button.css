@@ -1,0 +1,8 @@
+.button:hover {
+    transition: transform 0.5s 0s linear;
+    transform: scale(1.2);
+}
+
+.button {
+    color: rgb(21, 107, 21);
+}

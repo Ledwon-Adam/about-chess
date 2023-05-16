@@ -1,0 +1,16 @@
+.body {
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;   
+    font: 18px/1.5 "Lato", sans-serif;
+}
+
+.body--background{
+    background-image: url("../images/background.png");
+}
+
+.body--white{
+    background-color: white;
+    background-image: none;
+}
+
