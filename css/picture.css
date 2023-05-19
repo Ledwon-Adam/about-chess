@@ -1,5 +1,12 @@
 .picture {
+    max-width: 1000px;
     margin-top: 50px;
     border: 5px solid grey;
     box-shadow: 5px -5px 15px 5px #7C7C7C;
+}
+
+@media (max-width: 767px) {
+    .picture {
+        max-width: 100%;
+    }
 }
