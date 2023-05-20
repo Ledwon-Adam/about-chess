@@ -32,6 +32,3 @@
     border-bottom: 1px solid rgb(138, 21, 21);
 }
 
-.table__row:nth-child(even) {
-    background-color: grey;
-}
