@@ -1,3 +1,7 @@
+.article__table {
+padding: 3px, 3px;
+}
+
 .table {
     align-items: center;
     border-collapse: collapse;
