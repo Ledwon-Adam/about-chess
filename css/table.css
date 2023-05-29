@@ -3,6 +3,7 @@
     border-collapse: collapse;
     margin: 0 auto;
     overflow-x: auto;
+    width: 100%;
 }
 
 .table__caption {
@@ -16,6 +17,18 @@
 .table__cells {
     border: 1px outset #ccc;
     padding: 20px;
+}
+
+.tabble__row:nth-child(even) {
+    background-color: rgb(245, 245, 245);
+}
+
+.tabble__row:nth-child(odd) {
+    background-color: rgb(255, 255, 255);
+}
+
+.tabble__row:hover {
+    background-color: rgb(220, 220, 220);
 }
 
 .table__cellsHeader {
